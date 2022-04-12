@@ -1,0 +1,41 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.intro {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.info {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.info img {
+    width: 80%;
+}
+
+.link-btn {
+    background-color: yellow;
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    color: brown;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.top-bannar {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
